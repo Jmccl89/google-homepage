@@ -6,3 +6,38 @@
   height:92px;
   width:272px
 }
+
+form {
+   text-align: center;
+   margin-top: 30px;
+}
+
+#query {
+   border: 1px solid #EAEAEA;
+   padding: 0px 5px 0px 5px;
+   margin-bottom: 30px;
+   width:36%;
+   height:36px;
+}
+
+#query:hover {
+   border: 1px solid #CCCCCC;
+}
+
+#query:focus {
+   border: 1px solid #0000FF;
+}
+
+.button {
+   border: 1px solid #EEEEEE;
+   padding: 10px;
+   color: #707070;
+   border-radius: 2px;
+   width: 150px;
+   height: 36px;
+}
+
+.button:hover {
+   border: 1px solid #AAAAAA;
+   color: black;
+}
