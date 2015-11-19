@@ -30,13 +30,13 @@ form {
 }
 
 #query:focus {
-   border: 1px solid #0000FF;
+   border: 1px solid #4285F4;
 }
 
 .button {
    font-size: 13px;
    font-weight: bold;
-   border: 1px solid #EEEEEE;
+   border: 1px solid #f2f2f2;
    padding: 10px;
    color: #707070;
    background-color: #f2f2f2;
@@ -51,22 +51,50 @@ form {
 }
 
 #footer {
+   color: #707070;
    /*background-color: #f2f2f2;*/
-   background-color: red;
+   background-color: #f2f2f2;
+   border-top: 1px solid #e4e4e4;
    position: absolute;
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 36px;
+   height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#lfooter li {
+   float: left;
+}
+
+#rfooter li {
+   float: right;
+}
+
+#footer a {
+   text-decoration: none;
+   color: #707070;
+   font-size: 13px;
+   display: block;
+   width: 80px;
 }
 
 #rfooter {
    text-align: right;
-   width:50%; position:absolute;
-   right: 0;
+   width:50%;
+   position:absolute;
+   right: 7px;
+   bottom: 9px;
 }
 
 #lfooter {
-   width:50%; position:absolute;
-   left: 0;
+   width:50%;
+   position:absolute;
+   left: 7px;
+   bottom: 9px;
 }
